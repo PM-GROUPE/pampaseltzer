@@ -1,0 +1,49 @@
+{{ define "main" }}
+  {{- partial "age.html" . }}
+  
+<section class="section section my-0 py-0">
+  <div class="container-fluid inside-hero">
+    <div class="overlay"></div>
+  </div>
+  <div class="container inside-content-row">
+    <div class="row single-flavor-row">
+      <div class="col-md-4">
+        <div class="back-button">
+            <a onclick="goBack()">{{ i18n "back-button" }}</a>
+            <script>
+            function goBack() {
+              window.history.back();
+            }
+            </script>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <h1>{{ .Params.Title }}</h1>
+      </div>
+      <div class="col-md-8">
+        <div class="single-flavor-drink">
+            <img src="{{ .Params.image | absURL }}" alt="{{ .Params.Title }}">     
+        </div>
+        <div class="single-flavor-drink-description">
+            
+            <p>{{ .Params.description }}</p>
+
+
+
+            <h4>{{ i18n "ingredients" }}</h4>
+            <p>{{ .Params.ingredients_content }}</p>
+
+            <hr />
+            <p><em>{{ i18n "asterisque" }}</em></p>
+
+        </div>
+      </div>
+      <div class="col-md-4 flavor-info-column">
+        {{- partial "info-table.html" . }}
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,26 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ if $data.homepage.story.enable }}
+{{ with $data.homepage.story }}
+
+<section id="story" class="section section--border-bottom rad-animation-group">
+    <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      
+      <div class="col-12 col-md-12 my-auto my-auto text-center flavor-intro-text">
+        <h2>{{ .title }}</h2>
+        <p class="lead pb-5">
+          {{ .content | safeHTML }}
+        </p>
+        
+      </div>
+        
+    </div>
+  </div>
+
+    <!-- <video playsinline autoplay muted loop>
+      <source src="{{ .Site.Data.homepage.story.videoURL }}" type="video/mp4">
+    </video> -->
+</section>
+{{ end }}
+{{ end }}

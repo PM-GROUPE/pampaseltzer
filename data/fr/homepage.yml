@@ -1,0 +1,295 @@
+#logo
+logo:
+  URL: "/"  
+
+#header
+header:
+  URL: "/"
+  text1: "Pampa"
+  text2: "Hard Seltzer"
+  logo: "img/general/logo.svg"
+
+# menus
+menus:
+  header:
+    - URL: "#parfums"
+      name: "Saveurs"
+    - URL: "#story"
+      name: "Histoire"
+    - URL: "contact"
+      name: "Contact"
+    - URL: "products"
+      name: "Produits"
+      slug: "produits"
+
+  footer:
+    - URL: "#parfums"
+      name: "Saveurs"
+    - URL: "#story"
+      name: "Histoire"
+    - URL: "contact"
+      name: "contact"
+
+#age
+age:
+  enable: true
+  logo: "img/general/Pampa-hard_seltzer-blk.png"
+  title: "Avez-vous plus de 18 ans?"
+  warning: "Merci de revenir quand vous aurez 18 ans."
+  copy : "A consommer avec modération. © Pampa Drinks. Tous droits réservés."
+
+#cookies consent
+cookies:
+  enable: true
+  message1: "Ce site utilise des cookies et vous donne le contrôle sur ceux que vous souhaitez activer."
+  message2: "A l’exception de ceux nécessaires au fonctionnement du site ainsi que, sous certaines conditions, à la mesure d’audience, les cookies et technologies similaires ne peuvent être déposés qu’avec votre consentement. Vous pouvez librement donner, refuser ou retirer votre consentement à tout moment en accédant à notre outil de paramétrage des cookies. Si vous ne consentez pas à l’utilisation de ces technologies, nous considérerons que vous vous opposez également à tout dépôt de cookie que certains partenaires justifient par un intérêt légitime."
+
+# hero
+hero:
+  enable: true
+  title: "Pampa"
+  subtitle: "Hard Seltzer"
+  logo: "img/general/Pampa-hard_seltzer.png"
+  description: "Fraîcheur ardente"
+  image:
+    x: "img/hero/hero-bottles.png"
+    _2x: "img/hero/hero-bottles@2x.png"
+  imageMobile:
+    x: "img/hero/hero-bottles-mobile.png"
+  videobg:
+    x: "video/beach.mp4"
+    poster: "video/beach.jpg"
+
+  button:
+    btnText: "Acheter maintenant"
+    URL: "#"
+
+  desc:
+    - text: "0% gluten"
+    - text: "Bio"
+    - text: "5% alcool"
+    - text: "79 Kcal"
+
+  socialLinks:
+    - icon: "youtube"
+      URL: "https://www.youtube.com/channel/pampahardseltzer"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/pampahardseltzer/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/pampahardseltzer/"
+
+# parfums
+parfums:
+  enable: true      
+  title: "TROUVE TA SAVEUR"
+  allURL: "/products"
+  label: "MANDARINE / FLEUR DE SUREAU"
+  link: "/products/mandarine-fleur-de-sureau/"
+  content: "<p class='lead'>    
+  Fabriqué avec des ingrédients de qualité, le PAMPA® Hard Seltzer est composé d'un mélange d'eau de Seltz, de notre base d'alcool sans gluten et d'un soupçon de saveur de fruits. Découvrez notre variété de saveurs aujourd'hui.
+    </p>"
+  button:
+    icon: "icon-smile-fill"
+    btnText: "En savoir plus"
+    URL: " "
+  parfum:
+    - index: "1"
+      label: "1 / 4"
+      img: "img/parfums/mandarine-sureau.png"
+      title: "Mandarine / Fleur de sureau"
+      page: "/products/mandarine-fleur-de-sureau/"
+
+    - index: "2"
+      label: "2 / 4"
+      img: "img/parfums/citron-menthe.png"
+      title: "Citron / Menthe"
+      page: "/products/citron-menthe/"
+
+    - index: "3"
+      label: "3 / 4"
+      img: "img/parfums/framboise.png"
+      title: "Framboise"
+      page: "/products/framboise/"
+
+    - index: "4"
+      label: "4 / 4"
+      img: "img/parfums/fraise-citron.png"
+      title: "Fraise / Citron"
+      page: "/products/fraise-citron/"
+
+    
+
+#pub
+pub:
+  enable: true
+  logo: "img/general/Pampa-hard_seltzer.png"
+  title: "PAMPA"
+  subtitle: "Hard Seltzer"
+  text: "Fabriqué avec des ingrédients de qualité, le Pampa® Hard Seltzer 70 est composé d'un mélange d'eau de Seltz, de notre base d'alcool sans gluten et d'un soupçon de saveur de fruits.
+Disponible en ananas et clémentine - deux toutes nouvelles saveurs alléchantes - il contient 70 calories, 3,7% d'alcool, 0 g de glucides et est naturellement sans gluten."
+  image: 'img/pub/btl.png'
+  button:
+    btnText: "Acheter maintenant"
+    URL: "#"
+
+#story
+story:
+  enable: true
+  title: "Notre histoire"
+  content: "PAMPA® Hard Seltzer s'inspire de la légende de la plage privée du même nom - lorsque trois crêtes parfaites se réunissent pour créer un moment de pur rafraîchissement. Nous avons décidé de créer quelque chose d'aussi purement rafraîchissant que celui-ci.
+Le résultat? PAMPA® Hard Seltzer. "
+  videoURL: "video/pampa.mp4"
+
+#photos
+photos:
+  enable: true
+  title: "#pampaseltzer"
+  test: "Share your favorite moments with us."
+  grid:
+    - img: "img/photos/01.jpg"
+    - img: "img/photos/02.jpg"
+    - img: "img/photos/03.jpg"
+    - img: "img/photos/04.jpg"
+    - img: "img/photos/05.jpg"
+    - img: "img/photos/06.jpg"
+    - img: "img/photos/07.jpg"
+    - img: "img/photos/08.jpg"
+    - img: "img/photos/09.jpg"
+    - img: "img/photos/10.jpg"
+    - img: "img/photos/11.jpg"
+    - img: "img/photos/12.jpg"
+    - img: "img/photos/14.jpg"
+    - img: "img/photos/15.jpg"
+
+
+############################# banner ############################
+banner:
+  enable : true
+  title : "Believe in Technology, Make the change"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
+  image : "images/watch.png"
+  button:
+   enable : true
+   label : "Browse All Products"
+   link : "products"
+
+############################# Feature ############################
+features:
+  enable : true
+  title : "Our Core Features"
+  image : "images/watch-2.png"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+  - title : "Smooth Touche"
+    icon : "tf-ion-ios-alarm-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    
+    # feature item loop
+  - title : "Elegant Design"
+    icon : "tf-ion-ios-bell-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    
+    # feature item loop
+  - title : "Easy Pricing"
+    icon : "tf-ion-ios-cart-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+
+  # feature at the right of the image
+  right_side:
+    # feature item loop
+  - title : "Smooth Touch"
+    icon : "tf-ion-ios-alarm-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+    # feature item loop
+  - title : "Elegant Design"
+    icon : "tf-ion-ios-bell-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+    # feature item loop
+  - title : "Easy Pricing"
+    icon : "tf-ion-ios-cart-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+
+############################# promo ############################
+promo:
+  enable : true
+  image : "images/watch.png"
+  title : "Designed by professional , the benefit for creative gigs"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
+            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
+
+
+############################# About Product #######################
+about_product:
+  enable : true
+  title : "Why Choose Apple Watch"
+  items:
+    # about product item loop
+    - image : "images/showcase/showcase-4.png"
+      title : "Lorem ipsum dolor sit amet."
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+            quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+        
+    # about product item loop
+    - image : "images/showcase/showcase-3.png"
+      title : "Lorem ipsum dolor sit amet."
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+            quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+
+
+#################################### Products ########################
+products:
+  enable : true
+  title : "Checkout Our All Products"
+
+
+################################## Subscription ###################
+subscription:
+  enable : false
+  bg_image : "images/call-to-action.jpg"
+  title : "Get Product Updates"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  placeholder : "Your Email Address Here"
+
+
+############################## Testimonial ##########################
+testimonial:
+  enable : true
+  title : "Watch Review"
+  testimonial_item:
+    # testimonial item loop
+    - name : "Jonathon Andrew"
+      designation : "CEO, Themefisher"
+      image : "images/avater.png"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      
+    # testimonial item loop
+    - name : "Jonathon Andrew"
+      designation : "CEO, Themefisher"
+      image : "images/avater.png"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      
+    # testimonial item loop
+    - name : "Jonathon Andrew"
+      designation : "CEO, Themefisher"
+      image : "images/avater.png"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."

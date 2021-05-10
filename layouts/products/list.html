@@ -1,0 +1,41 @@
+{{ define "main" }}
+  {{- partial "age.html" . }}
+
+<section class="section rad-animation-group py-0 my-0" id="parfums">
+  <div class="container-fluid inside-hero">
+    <div class="overlay"></div>
+  </div>
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      
+      <div class="col-12 col-md-12 my-auto my-auto text-center flavor-intro-text">
+        <h2 class="pt-5">{{ .Title }}</h2>
+        <p class="lead">
+          {{ .Description | safeHTML }}
+        </p>
+        
+      </div>
+
+
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      
+      {{ range (where .Site.RegularPages "Section" "products") }}
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <a class="product-flavor" href="{{ .Permalink }}">
+          <div class="block">
+            <img class="img-fluid" src="{{ .Params.image | absURL }}" alt="{{.Title}}">
+          </div>
+          <div class="product-info">
+            <h4 class="mb-2">{{.Title}}</h4>
+          </div>
+        </a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

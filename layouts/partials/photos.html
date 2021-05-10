@@ -1,0 +1,40 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ if $data.homepage.photos.enable }}
+{{ with $data.homepage.photos }}
+
+<section id="photos" class="section">
+
+
+<div class="grid">
+  <div class="grid-sizer"></div>
+
+  {{ range .grid }}
+    <div class="grid-item">
+      <img src="{{ .img | absURL }}" />
+    </div>
+  {{ end }}
+  
+</div>
+
+  
+<script src='{{ "plugins/masonry/imagesloaded.min.js" | absURL }}'></script>
+<script src='{{ "plugins/masonry/masonry.min.js" | absURL }}'></script>
+<script type="text/javascript">
+  // external js: masonry.pkgd.js, imagesloaded.pkgd.js
+
+// init Masonry after all images have loaded
+var $grid = $('.grid').imagesLoaded( function() {
+  $grid.masonry({
+    itemSelector: '.grid-item',
+    percentPosition: true,
+    columnWidth: '.grid-sizer',
+    originTop: true,
+  }); 
+});
+
+</script>
+
+</section>
+{{ end }}
+{{ end }}

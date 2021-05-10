@@ -1,0 +1,68 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ if $data.homepage.parfums.enable }}
+{{ with $data.homepage.parfums }}
+
+
+<section class="section rad-animation-group pb-0" id="parfums">
+  <div class="container rad-fade-down">
+    <div class="row d-flex flex-column-reverse flex-md-row">
+      
+      <div class="col-12 col-md-12 my-auto my-auto text-center flavor-intro-text">
+        <h2>{{ .title }}</h2>
+        <p class="lead">
+          {{ .content | safeHTML }}
+        </p>
+        
+      </div>
+
+
+    </div>
+  </div>
+  <section class="inner-link section-flavors rad-animation-group" data-link="flavors">
+        
+        <div class="container-fluid flavor-carousel animation-element-container bounce-up in-view rad-fade-down">
+          
+          <div class="home-carousel-wrapper">
+            
+            <div class="swiper-container">
+              
+              <div class="swiper-wrapper">
+
+                {{ range .parfum }}
+
+                <div class="swiper-slide" data-swiper-slide-index="{{ .index }}" role="group" aria-label="{{ .label }}">
+                  <div class="swiper-zoom-container">
+                     <img src="{{ .img | absURL }}" title="{{ .title }}" data-page="{{ .page }}" data-content="" data-link="{{ .Permalink }}">
+                  </div>
+                </div>
+
+                {{ end }}
+
+
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>   
+            
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+          </div>
+          
+          <div class="carousel-product-label">
+          <h4>{{ .label }}</h4>
+          </div>
+          <div class="carousel-product-action">
+            <a href="{{ .link }}" class="btn btn-primary">{{ i18n "more" }}</a>
+          </div>
+          <div class="carousel-learn-more">
+            <a href="{{ .allURL }}">{{ i18n "all-products" }}</a>
+          </div>
+       
+
+          
+        </div> 
+      </section>
+
+</section>
+{{ end }}
+{{ end }}
+

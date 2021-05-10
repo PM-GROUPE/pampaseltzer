@@ -1,0 +1,46 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{- if $data.homepage.age.enable }}
+{{- with $data.homepage.age }}
+<div id="age-gate" class="modal" style="display: none;">
+      <div class="d-flex flex-wrap align-items-center h-100">
+        <div id="age-gate-content" class="container overlay-content">
+          <div class="row text-center">
+            <img id="age-gate-logo" class="align-self-center mx-auto d-block img-fluid my-4 my-lg-5" src="{{ .logo | absURL }}">
+          </div>
+          <div class="row w-lg-80 mx-auto">
+            <div class="col-12 bg-black text-center py-3 px-3 py-lg-4 px-lg-4">
+              <h1 class="my-2">{{ .title | markdownify }}</h1>
+            </div>
+          </div>
+          <div class="row w-lg-80 mx-auto age-gate-btns">
+            <div class="col-6 text-center age-gate-yes-container px-0">
+
+              <a href="#" class="d-block  py-3 px-3 py-lg-4 px-lg-4 font-weight-bold age-gate-yes" data-agegate="yes">{{ i18n "yes" }}</a>
+
+            </div>
+            <div class="col-6 text-center age-gate-no-container px-0">
+
+              <a href="#" class="d-block  py-3 px-3 py-lg-4 px-lg-4 font-weight-bold age-gate-no" data-agegate="no">{{ i18n "no" }}</a>
+
+            </div>
+          </div>
+          <div class="row w-lg-80 mx-auto">
+            <div id="age-limit" class="visibility-hidden text-center text-danger w-100 py-3">
+            	{{ .warning | markdownify }}
+            </div>
+          </div>
+
+
+          <div class="row mx-auto">
+            <div id="age-terms" class="mx-auto py-2 text-center">
+
+              {{ .copy | markdownify }}
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{{- end }}
+{{- end }}

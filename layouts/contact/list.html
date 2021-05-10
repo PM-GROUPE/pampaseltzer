@@ -1,0 +1,88 @@
+{{ define "main" }}
+  {{- partial "age.html" . }}
+
+<section class="section rad-animation-group py-0 my-0">
+  <div class="container-fluid inside-hero">
+    <div class="overlay"></div>
+  </div>
+  <div class="container rad-fade-down">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 mx-auto my-auto text-center flavor-intro-text">
+        {{ with .Params.contact }}
+        <h2 class="pt-5">{{ .title }}</h2>
+        <p class="lead">
+          {{ .subtitle | safeHTML }}
+        </p>
+        {{end }}
+
+
+<p class="error message js-hidden">{{ i18n "js_required" }}</p>
+<p class="contact-submitted status message hidden">{{ i18n "contact_submitted" }}</p>
+<p class="contact-error error message hidden">{{ i18n "contact_error" }}</p>
+
+<form class="contact-form hidden row" action="#" method="post" accept-charset="UTF-8">
+  <div class="col-lg-8 mx-auto my-auto">
+    <select name="Sujet" class="form-control" aria-required="true" aria-invalid="false">
+      <option value="">{{ i18n "contact_subject_placeholder" }}</option>
+      <option value="Contact">{{ i18n "contact_subject_option1" }}</option>
+      <option value="Location de tireuses">{{ i18n "contact_subject_option2" }}</option>
+      <option value="Devis personnalisé">{{ i18n "contact_subject_option3" }}</option>
+      <option value="Formation professionnelle">{{ i18n "contact_subject_option4" }}</option>
+    </select>
+</div>
+  <div class="col-lg-6 mb-3">
+    <input type="text" id="edit-firstname" name="prenom" placeholder="{{ i18n "contact_firstname_placeholder" }}" tabindex="1" required autofocus><span></span>
+  </div>
+  <div class="col-lg-6 mb-3">
+    <input type="text" id="edit-lastname" name="nom" placeholder="{{ i18n "contact_lastname_placeholder" }}" tabindex="1" required autofocus><span></span>
+  </div>
+  <div class="col-lg-6 mb-3">
+    <input type="email" id="edit-mail" name="email" placeholder="{{ i18n "contact_mail_placeholder" }}" tabindex="2" required><span></span>
+  </div>
+  <div class="col-lg-6 mb-3">
+    <input type="text" id="edit-phone" name="telephone" placeholder="{{ i18n "contact_phone_placeholder" }}" tabindex="2" required><span></span>
+  </div>
+  <div class="col-12 mb-3">
+  <textarea id="edit-message" name="message" class="form-control mb-2" placeholder="{{ i18n "contact_message_placeholder" }}" tabindex="4" required></textarea>
+</div>
+<div class="col-12">
+  <button type="submit" class="form-submit btn btn-primary" disabled>{{ i18n "contact_submit" }}</button>
+</div>
+</form>
+      </div>
+    <div class="col-lg-8 my-auto my-auto text-center flavor-intro-text"><hr /></div>
+    </div>
+
+    <div class="row justify-content-center ">
+
+      {{ with .Params.adresse }}
+
+      <div class="col-lg-5 col-sm-6 mb-5">
+        <h3 class="font-weight-bold mb-4">{{ .title | markdownify }}</h3>
+        <p class="lead mb-3">{{ .line1 | markdownify }}</p>
+        <p>{{ .line2 | markdownify }}<br />{{ .line3 | markdownify }}<br />{{ .line4 | markdownify }}</p>
+        <ul class="list-unstyled contact-list">
+          {{with .mobile}} <li class="mb-3"><a href="tel:{{ . }}"><i class="tf-ion-ios-telephone mr-2"></i>
+              {{ . }}</a></li>{{ end }}
+          {{with .email}} <li class="mb-3"><a href="mailto:{{ . }}"><i class="tf-ion-email mr-2"></i>{{ . }}</a></li>
+          {{end }}
+          {{with .location }} <li class="mb-3"><i class="tf-ion-ios-location mr-2"></i>{{ . }}
+          </li>{{ end }}
+        </ul>
+      </div>
+      {{ end }}
+      <div class="col-lg-3 col-sm-6 mb-5">
+        {{ with .Params.telephone }}
+        <h3 class="font-weight-bold mb-4">{{ .title | markdownify }}</h3>
+        <p class="lead mb-3">{{ .subtitle | markdownify }}</p>
+        <p><span class="highlight">{{ .numero | markdownify }}</span></p>
+        <p class="mb-0">{{ .email.text | markdownify }}</p>
+        <a href="mailto:{{ .email.url | markdownify }}">{{ .email.url | markdownify }}</a>
+        {{ end }}
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+{{ end }}

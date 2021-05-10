@@ -1,0 +1,285 @@
+#logo
+logo:
+  URL: "/"
+     
+
+#header
+header:
+  URL: "/en/"
+  text1: "Pampa"
+  text2: "Hard Seltzer"
+  logo: "img/general/logo.svg"
+
+# menus
+menus:
+  header:
+    - URL: "/en/#parfums"
+      name: "Flavors"
+    - URL: "/en/#story"
+      name: "Story"
+    - URL: "/en/#contact"
+      name: "Contact"
+    - URL: "/en/products"
+      name: products
+
+  footer:
+    - URL: "/en/#parfums"
+      name: "Flavors"
+    - URL: "/en/#story"
+      name: "Story"
+    - URL: "/en/#contact"
+      name: "Contact"
+
+#age
+age:
+  enable: true
+  logo: "img/general/Pampa-hard_seltzer-blk.png"
+  title: "Are you over 21?"
+  warning: "Please come back and visit us when you're 21."
+  copy : "Please Drink Responsibly. Hard Seltzer with Flavors. All Registered Trademarks, used under license by Pampa Hard Seltzer"
+
+
+# hero
+hero:
+  enable: true
+  title: "Pampa"
+  subtitle: "Hard Seltzer"
+  logo: "img/general/Pampa-hard_seltzer.png"
+  description: "Hot water"
+  image:
+    x: "img/hero/hero-bottles.png"
+    _2x: "img/hero/hero-bottles@2x.png"
+  imageMobile:
+    x: "img/hero/hero-bottles-mobile.png"
+  videobg:
+    x: "https://cdn.videvo.net/videvo_files/video/free/2013-09/small_watermarked/MoonandSeaHDFInalRenderH264_preview.mp4"
+    poster: "video/beach.jpg"
+
+  button:
+    btnText: "Acheter maintenant"
+    URL: "#"
+
+  desc:
+    - text: "0% gluten"
+    - text: "Bio"
+    - text: "5% alcohol"
+    - text: "79 Kcal"
+
+  socialLinks:
+    - icon: "youtube"
+      URL: "https://www.youtube.com/channel/pampahardseltzer"
+
+    - icon: "instagram"
+      URL: "https://www.instagram.com/pampahardseltzer/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/pampahardseltzer/"
+
+# parfums
+parfums:
+  enable: true      
+  title: "find your flavor"
+  allURL: "/en/products"
+  label: "Tangerine / Elderflower"
+  link: "/en/products/tangerine-elderflower/"
+  content: "<p class='lead'>    
+ Made with quality ingredients, PAMPA® Hard Seltzer is made with a blend of seltzer water, our gluten-free alcohol base, and a hint of fruit flavor. Discover our variety of flavors today.   </p>"
+  button:
+    icon: "icon-smile-fill"
+    btnText: "Learn more"
+    URL: " "
+  parfum:
+    - index: "1"
+      label: "1 / 4"
+      img: "img/parfums/mandarine-sureau.png"
+      title: "Tangerine / Elderflower"
+      page: "/en/products/tangerine-elderflower/"
+
+    - index: "2"
+      label: "2 / 4"
+      img: "img/parfums/citron-menthe.png"
+      title: "Lemon / Mint"
+      page: "/en/products/lemon-mint/"
+
+    - index: "3"
+      label: "3 / 4"
+      img: "img/parfums/framboise.png"
+      title: "Raspberry"
+      page: "/en/products/raspberry/"
+
+    - index: "4"
+      label: "4 / 4"
+      img: "img/parfums/fraise-citron.png"
+      title: "Strawberry / Lemon"
+      page: "/en/products/strawberry-lemon/"
+
+#pub
+pub:
+  enable: true
+  title: "PAMPA"
+  subtitle: "Hard Seltzer"
+  text: "Made with quality ingredients, Pampa® Hard Seltzer 70 is made with a blend of seltzer water, our gluten-free alcohol base and a hint of fruit flavor.
+Available in pineapple and clementine - two all new mouthwatering flavors - it contains 70 calories, 3.7% alcohol, 0g carbohydrates and is naturally gluten free.    </p>"
+  image: 'img/pub/btl.png'
+  button:
+    btnText: "Buy now"
+    URL: "#"
+
+#story
+story:
+  enable: true
+  title: "Story"
+  content: "PAMPA® Hard Seltzer is inspired by the legend of the private beach of the same name - when three perfect ridges come together to create a moment of pure refreshment. We decided to create something as purely refreshing as this one.
+The result? PAMPA® Hard Seltzer. "
+  videoURL: "video/pampa.mp4"
+
+#photos
+photos:
+  enable: true
+  title: "#pampaseltzer"
+  test: "Share your favorite moments with us."
+  grid:
+    - img: "img/photos/01.jpg"
+    - img: "img/photos/02.jpg"
+    - img: "img/photos/03.jpg"
+    - img: "img/photos/04.jpg"
+    - img: "img/photos/05.jpg"
+    - img: "img/photos/06.jpg"
+    - img: "img/photos/07.jpg"
+    - img: "img/photos/08.jpg"
+    - img: "img/photos/09.jpg"
+    - img: "img/photos/10.jpg"
+    - img: "img/photos/11.jpg"
+    - img: "img/photos/12.jpg"
+    - img: "img/photos/14.jpg"
+    - img: "img/photos/15.jpg"
+
+############################# banner ############################
+banner:
+  enable : true
+  title : "Believe in Technology, Make the change"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
+  image : "images/watch.png"
+  button:
+   enable : true
+   label : "Browse All Products"
+   link : "products"
+
+############################# Feature ############################
+features:
+  enable : true
+  title : "Our Core Features"
+  image : "images/watch-2.png"
+
+  # feature at the left of the image
+  left_side:
+    # feature item loop
+  - title : "Smooth Touch"
+    icon : "tf-ion-ios-alarm-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    
+    # feature item loop
+  - title : "Elegant Design"
+    icon : "tf-ion-ios-bell-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    
+    # feature item loop
+  - title : "Easy Pricing"
+    icon : "tf-ion-ios-cart-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+
+  # feature at the right of the image
+  right_side:
+    # feature item loop
+  - title : "Smooth Touch"
+    icon : "tf-ion-ios-alarm-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+    # feature item loop
+  - title : "Elegant Design"
+    icon : "tf-ion-ios-bell-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+    # feature item loop
+  - title : "Easy Pricing"
+    icon : "tf-ion-ios-cart-outline"
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+
+############################# promo ############################
+promo:
+  enable : true
+  image : "images/watch.png"
+  title : "Designed by professional , the benefit for creative gigs"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
+            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
+            <br><br>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
+
+
+############################# About Product #######################
+about_product:
+  enable : true
+  title : "Why Choose Apple Watch"
+  items:
+    # about product item loop
+    - image : "images/showcase/showcase-4.png"
+      title : "Lorem ipsum dolor sit amet."
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+            quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+        
+    # about product item loop
+    - image : "images/showcase/showcase-3.png"
+      title : "Lorem ipsum dolor sit amet."
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+            quas, quo harum deserunt consequatur cumque!"
+      button:
+        enable : false
+        label : "Check Features"
+        link : "#"
+
+
+#################################### Products ########################
+products:
+  enable : true
+  title : "Checkout Our All Products"
+
+
+################################## Subscription ###################
+subscription:
+  enable : true
+  bg_image : "images/call-to-action.jpg"
+  title : "Get Product Updates"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  placeholder : "Your Email Address Here"
+
+
+############################## Testimonial ##########################
+testimonial:
+  enable : true
+  title : "Watch Review"
+  testimonial_item:
+    # testimonial item loop
+    - name : "Jonathon Andrew"
+      designation : "CEO, Themefisher"
+      image : "images/avater.png"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      
+    # testimonial item loop
+    - name : "Jonathon Andrew"
+      designation : "CEO, Themefisher"
+      image : "images/avater.png"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+      
+    # testimonial item loop
+    - name : "Jonathon Andrew"
+      designation : "CEO, Themefisher"
+      image : "images/avater.png"
+      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."

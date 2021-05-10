@@ -1,0 +1,65 @@
+<header class="header fixed-top rad-animation-group" id="header">
+  <div class="container rad-fade-in">
+    <nav class="navbar navbar-expand-lg navbar-light p-0">
+      {{ $data := index .Site.Data .Site.Language.Lang }}
+      {{ with $data.homepage.logo }}
+      <div class="logo">
+        <a class="navbar-brand" href="{{ .URL | absURL }}" title="Pampa Hard Seltzer"></a>
+      </div>
+
+      {{ end }}
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent, #header"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-lg-auto">
+          {{ $data := index .Site.Data .Site.Language.Lang }}
+            {{ with $data.homepage.menus }}
+
+              {{ range .header }}
+          
+          <li class="nav-item">
+            <a data-scroll class="nav-link" href="{{ .URL }}"
+              >{{ .name | upper }}</a
+            >
+          </li>
+              {{ end }}
+              
+            {{ end }}  
+        </ul>
+        <!-- Language List -->
+        {{ if .IsTranslated }}
+        <select class="lang-list" id="select-language" onchange="location = this.value;">
+          {{ $siteLanguages := .Site.Languages}}
+          {{ $pageLang := .Page.Lang}}
+          {{ range .Page.AllTranslations }}
+          {{ $translation := .}}
+          {{ range $siteLanguages }}
+          {{ if eq $translation.Lang .Lang }}
+          {{ $selected := false }}
+          {{ if eq $pageLang .Lang}}
+          <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}" selected>{{ .LanguageName }}
+          </option>
+          {{ else }}
+          <option id="{{ $translation.Language }}" value="{{ $translation.Permalink }}">{{ .LanguageName }}</option>
+          {{ end }}
+          {{ end }}
+          {{ end }}
+          {{ end }}
+        </select>
+        {{ end }}
+      </div>
+    
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->

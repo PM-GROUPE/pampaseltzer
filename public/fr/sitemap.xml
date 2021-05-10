@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/products/citron-menthe/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/products/lemon-mint/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/products/citron-menthe/"
+                />
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>/products/fraise-citron/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/products/strawberry-lemon/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/products/fraise-citron/"
+                />
+  </url>
+  
+  <url>
+    <loc>/products/framboise/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/products/raspberry/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/products/framboise/"
+                />
+  </url>
+  
+  <url>
+    <loc>/products/mandarine-fleur-de-sureau/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/products/tangerine-elderflower/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/products/mandarine-fleur-de-sureau/"
+                />
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/"
+                />
+  </url>
+  
+  <url>
+    <loc>/privacy-policy/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/privacy-policy/"
+                />
+  </url>
+  
+  <url>
+    <loc>/products/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/products/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="/products/"
+                />
+  </url>
+  
+</urlset>

@@ -1,0 +1,21 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ if $data.homepage.cookies.enable }}
+{{ with $data.homepage.cookies }}
+	<div class="card card-modal" id="consent">
+	  <div class="card-body">
+	  	<div class="card-close"><a href="#" class="text-right button--decline">{{ i18n "cookieconsent_decline" }}</a></div>
+	    <h2 class="pt-5">{{ i18n "cookieconsent_title" }}</h5>
+	    <p class="card-text">{{ .message1 }}</p>
+	    <p class="card-text">{{ .message2 }}</p>
+	    <h5>Que se passe-t-il si je refuse ?</h5>
+	    <p>Si vous refusez les cookies, vous pourrez accéder au site. Cependant, le refus de certains cookies est susceptible de dégrader des fonctionnalités du site (exemple : lecture des vidéos). Nous serons donc amenés à vous solliciter de nouveau si vous souhaitez accéder à celles-ci.
+
+</p>
+	    <a href="#" class="btn btn-primary button--accept">{{ i18n "cookieconsent_accept" }}</a>
+	    
+	  </div>
+	</div>
+
+{{ end }}
+{{ end }}

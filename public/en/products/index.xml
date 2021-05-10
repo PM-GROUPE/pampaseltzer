@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>All our flavors on Pampa Hard Seltzer</title>
+    <link>/en/products/</link>
+    <description>Recent content in All our flavors on Pampa Hard Seltzer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Pampa Drinks. All rights reserved.</copyright><atom:link href="/en/products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lemon / Mint</title>
+      <link>/en/products/lemon-mint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/products/lemon-mint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mandarin / Elderflower</title>
+      <link>/en/products/tangerine-elderflower/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/products/tangerine-elderflower/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspberry</title>
+      <link>/en/products/raspberry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/products/raspberry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Strawberry / Lemon</title>
+      <link>/en/products/strawberry-lemon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/products/strawberry-lemon/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

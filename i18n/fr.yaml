@@ -1,0 +1,137 @@
+- id: "add_to_cart"
+  translation: "Add to Cart"
+  
+- id: "send"
+  translation: "Envoyer"
+  
+- id: "subscribe"
+  translation: "Subscribe"
+  
+- id: "read_more"
+  translation: "Read More"
+  
+- id: "subscribe"
+  translation: "Subscribe"
+  
+- id: "subscribe"
+  translation: "Subscribe"
+  
+- id: "subscribe"
+  translation: "Subscribe"
+
+- id: "buy"
+  translation: "Acheter maintenant"
+
+- id: "yes"
+  translation: "Oui"
+
+- id: "no"
+  translation: "Non"
+
+- id: "more"
+  translation: "En savoir plus"
+
+- id: "all-products"
+  translation: "Tous les produits"
+
+- id: "back-button"
+  translation: "Retour aux parfums"
+
+- id: "ingredients"
+  translation: "Ingrédients"
+
+- id: "nutrition"
+  translation: "Valeurs nutritives"
+
+- id: "tailles_dispo"
+  translation: "Tailles disponibles"
+
+- id: "asterisque"
+  translation: "* Le% de la valeur quotidienne (VQ) vous indique dans quelle mesure un élément nutritif dans une portion de nourriture contribue à un régime quotidien. 2000 calories par jour sont utilisées pour des conseils nutritionnels généraux."
+
+- id: "cookieconsent_title"
+  translation: "Bienvenue à la Pampa"
+
+- id: "cookieconsent_message"
+  translation: "Ce site utilise des cookies et vous donne le contrôle sur ceux que vous souhaitez activer. <br><br>A l’exception de ceux nécessaires au fonctionnement du site ainsi que, sous certaines conditions, à la mesure d’audience, les cookies et technologies similaires ne peuvent être déposés qu’avec votre consentement. Vous pouvez librement donner, refuser ou retirer votre consentement à tout moment en accédant à notre outil de paramétrage des cookies. Si vous ne consentez pas à l’utilisation de ces technologies, nous considérerons que vous vous opposez également à tout dépôt de cookie que certains partenaires justifient par un intérêt légitime."
+
+- id: "cookieconsent_accept"
+  translation: "Accepter"
+
+- id: "cookieconsent_decline"
+  translation: "Continuer sans accepter"
+
+- id: "cookieconsent_custom"
+  translation: "Paramétrer les cookies"
+
+- id: "contact_submitted"
+  translation: "Votre message a été envoyé."
+
+- id: "contact_error"
+  translation: "Une erreur est survenue lors de l'envoi du formulaire."
+
+- id: "contact_name"
+  translation: "Nom"
+
+- id: "contact_name_placeholder"
+  translation: "Votre nom"
+
+- id: "contact_fistname"
+  translation: "Prénom"
+
+- id: "contact_firstname_placeholder"
+  translation: "Prénom"
+
+- id: "contact_lastname"
+  translation: "Nom"
+
+- id: "contact_lastname_placeholder"
+  translation: "Nom"
+
+- id: "contact_phone"
+  translation: "Téléphone"
+
+- id: "contact_phone_placeholder"
+  translation: "Téléphone"
+
+- id: "contact_mail"
+  translation: "Adresse e-mail"
+
+- id: "contact_mail_placeholder"
+  translation: "Votre adresse e-mail"
+
+- id: "contact_subject"
+  translation: "Sujet"
+
+- id: "contact_subject_placeholder"
+  translation: "Choisir un objet"
+
+- id: "contact_subject_option1"
+  translation: "Contact"
+
+- id: "contact_subject_option2"
+  translation: "Location de tireuses"
+
+- id: "contact_subject_option3"
+  translation: "Devis personnalisé"
+
+- id: "contact_subject_option4"
+  translation: "Formation professionnelle"
+
+- id: "contact_message"
+  translation: "Message"
+
+- id: "contact_message_placeholder"
+  translation: "Contenu du message"
+
+- id: "contact_submit"
+  translation: "Envoyer"
+
+- id: "contact_honypot"
+  translation: "Ne faites pas attention à ça si vous êtes humain"
+
+- id: "privacy_policy"
+  translation: "Politique de confidentialité"
+
+- id: "js_required"
+  translation: "Javascript doit être activé pour utiliser ce formulaire de contact."

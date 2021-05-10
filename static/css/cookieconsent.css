@@ -1,0 +1,44 @@
+.cookieconsent {
+      width: 60%;
+    min-width: 285px;
+    height: auto;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 9000px #000;
+    border-radius: 20px;
+    padding: 35px 25px;
+    position: absolute;
+    background: white;
+}
+ .cookieconsent a {
+   color: inherit;
+}
+ .button--accept {
+
+}
+ .button--decline {
+   display:block;
+}
+
+.button--decline:after {
+    content: " ";
+    display: flex;
+    width: 12px;
+    height: 9px;
+    background-image: url("data:image/svg+xml,%3Csvg width='12' height='9' viewBox='0 0 12 9' fill='%23f9ae14' xmlns='http://www.w3.org/2000/svg'%3E %3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M0 3.762V5.238H9.44L7.056 7.938L8 9L12 4.5L8 0L7.056 1.062L9.44 3.762H0Z' fill='%23f9ae14'/%3E %3C/svg%3E");
+    position: absolute;
+    right: 6px;
+    top: 50%;
+    margin-top: -4.5px;
+}
+.button--decline:hover {
+  text-decoration: none;
+}
+ .js-cookieconsent-open {
+   transform: translateY(0);
+}
+}
+}
+ 
