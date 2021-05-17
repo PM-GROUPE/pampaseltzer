@@ -40,7 +40,7 @@ age:
 
 #cookies consent
 cookies:
-  enable: true
+  enable: false
   message1: "Ce site utilise des cookies et vous donne le contrôle sur ceux que vous souhaitez activer."
   message2: "A l’exception de ceux nécessaires au fonctionnement du site ainsi que, sous certaines conditions, à la mesure d’audience, les cookies et technologies similaires ne peuvent être déposés qu’avec votre consentement. Vous pouvez librement donner, refuser ou retirer votre consentement à tout moment en accédant à notre outil de paramétrage des cookies. Si vous ne consentez pas à l’utilisation de ces technologies, nous considérerons que vous vous opposez également à tout dépôt de cookie que certains partenaires justifient par un intérêt légitime."
 
@@ -59,6 +59,8 @@ hero:
   videobg:
     x: "video/beach.mp4"
     poster: "video/beach.jpg"
+  imgbg:
+    x: "img/general/bg.jpg"
 
   button:
     btnText: "Acheter maintenant"

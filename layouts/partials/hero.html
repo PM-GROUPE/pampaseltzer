@@ -3,10 +3,11 @@
 {{ if $data.homepage.hero.enable }}
 {{ with $data.homepage.hero }}
 <section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
-  <div class="overl ay"></div>
-  <video class="hero-video" playsinline autoplay loop muted poster="{{ .videobg.poster | absURL }}">
+  <div class="overlay"></div>
+  <!-- <video class="hero-video" playsinline autoplay loop muted poster="{{ .videobg.poster | absURL }}">
     <source src="{{ .videobg.x | absURL }}" type="video/mp4">      
-  </video>
+  </video> -->
+  <img class="hero-video" src="{{ .imgbg.x | absURL }}">
   <div class="rad-showcase__bg">
     <img
       class="lozad img-responsive"
@@ -32,11 +33,11 @@
       </div>
     </div>
   </div>
-  <div class="row desc">
+  <!-- <div class="row desc">
     {{ range .desc }}
       <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">{{ .text }}</div>
     {{ end }}
-  </div>
+  </div> -->
   <div class="rad-showcase__bg rad-showcase__bg--mobile">
     <img
       class="lozad img-responsive"
