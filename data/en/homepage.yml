@@ -54,6 +54,8 @@ hero:
   videobg:
     x: "https://cdn.videvo.net/videvo_files/video/free/2013-09/small_watermarked/MoonandSeaHDFInalRenderH264_preview.mp4"
     poster: "video/beach.jpg"
+  imgbg:
+    x: "img/general/bg.jpg"
 
   button:
     btnText: "Acheter maintenant"
