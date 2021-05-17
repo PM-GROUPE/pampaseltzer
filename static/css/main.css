@@ -10634,7 +10634,7 @@ body.page .navbar-brand {opacity: 0;}
     opacity: 1;
 }
 .rad-showcase__bg--mobile img {
-    margin-top: 40px;
+    margin: 40px 0;
 }
 .rad-showcase .container {
     position: relative;
