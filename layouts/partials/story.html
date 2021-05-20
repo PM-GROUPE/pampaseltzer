@@ -18,9 +18,23 @@
     </div>
   </div>
 
-    <!-- <video playsinline autoplay muted loop>
-      <source src="{{ .Site.Data.homepage.story.videoURL }}" type="video/mp4">
-    </video> -->
+  <div class="embed-responsive">
+    <img src="img/general/play-button.png" class="play" id="play-button">
+    <video playsinline id="videoPlayer">
+      <source src="video/phs.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <script type="text/javascript">
+    var playButton = document.getElementById('play-button');
+
+    playButton.addEventListener('click', function(){
+      videoPlayer.play();
+      this.classList.add("hidden");
+      videoPlayer.setAttribute("controls","controls") 
+    });
+  </script>
+    
 </section>
 {{ end }}
 {{ end }}

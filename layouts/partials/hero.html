@@ -4,24 +4,11 @@
 {{ with $data.homepage.hero }}
 <section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
   <div class="overlay"></div>
-  <!-- <video class="hero-video" playsinline autoplay loop muted poster="{{ .videobg.poster | absURL }}">
-    <source src="{{ .videobg.x | absURL }}" type="video/mp4">      
-  </video> -->
-  <img class="hero-video" src="{{ .imgbg.x | absURL }}">
-  <div class="rad-showcase__bg">
-    <img
-      class="lozad img-responsive"
-      src="{{ .image.x | absURL }}"
-      data-src="{{ .image.x | absURL }}"
-      data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
-      alt="{{ .image.alt }}"
-    />
-  </div>
   <div class="container">
     <div class="row">
-      <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
+      <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-6">
         <div class="text-center">
-          <img style="width: 100%;max-width: 300px;" src="{{ .logo | absURL }}" class="pb-3" />
+          <img style="width: 100%;max-width: 200px;" src="{{ .logo | absURL }}" class="pb-3" />
           
           <!-- <a
             href="{{ .hero.button.URL | absURL }}"
@@ -32,19 +19,6 @@
         </div>
       </div>
     </div>
-  </div>
-  <!-- <div class="row desc">
-    {{ range .desc }}
-      <div class="col-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">{{ .text }}</div>
-    {{ end }}
-  </div> -->
-  <div class="rad-showcase__bg rad-showcase__bg--mobile">
-    <img
-      class="lozad img-responsive"
-      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      data-src="{{ .imageMobile.x | absURL }}"
-      alt="{{ .imageMobile.alt }}"
-    />
   </div>
 </section>
 {{ end }}

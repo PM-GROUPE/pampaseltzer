@@ -135,3 +135,6 @@
 
 - id: "js_required"
   translation: "Javascript doit être activé pour utiliser ce formulaire de contact."
+
+- id: videoUnsupported
+  translation: "Votre navigateur ne permet pas l'intégration de vidéos, mais ce n'est pas grave ; vous pouvez <a href=\"{{ .RelPermalink }}\">la télécharger</a> et la voir dans votre lecteur vidéo préféré !"
