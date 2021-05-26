@@ -17,7 +17,7 @@ menus:
       name: "Flavors"
     - URL: "/en/#story"
       name: "Story"
-    - URL: "/en/#contact"
+    - URL: "/en/contact"
       name: "Contact"
     - URL: "/en/products"
       name: products
@@ -27,7 +27,7 @@ menus:
       name: "Flavors"
     - URL: "/en/#story"
       name: "Story"
-    - URL: "/en/#contact"
+    - URL: "/en/contact"
       name: "Contact"
 
 #age
@@ -52,8 +52,8 @@ hero:
   imageMobile:
     x: "img/hero/hero-bottles-mobile.png"
   videobg:
-    x: "https://cdn.videvo.net/videvo_files/video/free/2013-09/small_watermarked/MoonandSeaHDFInalRenderH264_preview.mp4"
-    poster: "video/beach.jpg"
+    x: "https://res.cloudinary.com/marketluck/video/upload/v1622034231/pampaseltzer/PHS-169_gswhkx.mp4"
+    poster: "video/poster.jpg"
   imgbg:
     x: "img/general/bg.jpg"
 
@@ -80,12 +80,11 @@ hero:
 # parfums
 parfums:
   enable: true      
-  title: "find your flavor"
+  title: "our flavors"
   allURL: "/en/products"
   label: "Tangerine / Elderflower"
   link: "/en/products/tangerine-elderflower/"
-  content: "<p class='lead'>    
- Made with quality ingredients, PAMPA® Hard Seltzer is made with a blend of seltzer water, our gluten-free alcohol base, and a hint of fruit flavor. Discover our variety of flavors today.   </p>"
+  content: "<p class='lead'> Made with quality ingredients, the Pampa Hard Seltzer is made with alcoholic and flavored sparkling water.<br /> 100% organic, gluten-free, sugar-free. Discover our aromas. </p>"
   button:
     icon: "icon-smile-fill"
     btnText: "Learn more"
@@ -122,7 +121,7 @@ pub:
   subtitle: "Hard Seltzer"
   text: "Made with quality ingredients, Pampa® Hard Seltzer 70 is made with a blend of seltzer water, our gluten-free alcohol base and a hint of fruit flavor.
 Available in pineapple and clementine - two all new mouthwatering flavors - it contains 70 calories, 3.7% alcohol, 0g carbohydrates and is naturally gluten free.    </p>"
-  image: 'img/pub/btl.png'
+  image: 'img/hero/hero-bottles-mobile.png'
   button:
     btnText: "Buy now"
     URL: "#"
@@ -131,9 +130,11 @@ Available in pineapple and clementine - two all new mouthwatering flavors - it c
 story:
   enable: true
   title: "Story"
-  content: "PAMPA® Hard Seltzer is inspired by the legend of the private beach of the same name - when three perfect ridges come together to create a moment of pure refreshment. We decided to create something as purely refreshing as this one.
-The result? PAMPA® Hard Seltzer. "
+  content: "La Pampa Plage where it all began ...<br />
+Many of our customers order strong alcohols with sparkling water such as Perrier whiskey, Perrier vodka, Perrier rum.
+It was on this basis that we decided to launch the Pampa Hard Seltzer. "
   videoURL: "video/phs.mp4"
+  poster: "video/phs.jpg"
 
 #photos
 photos:

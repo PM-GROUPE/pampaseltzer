@@ -1,25 +1,31 @@
 ---
 title: "Contact"
-description : "this is a meta description"
 
-office:
-  title : "Central Office"
-  mobile : "0124857985320"
-  email : "demo@email.com"
-  location : "Dhaka, Bangladedsh"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna"
+contact:
+  title: "Contact us"
+  subtitle: "One question?"
 
-# opennig hour
-opennig_hour:
-  title : "Opening Hours"
-  day_time:
-    - "Monday: 9:00 – 19:00"
-    - "Tuesday: 9:00 – 19:00"
-    - "Wednesday: 9:00 – 19:00"
-    - "Thursday: 9:00 – 19:00"
-    - "Friday: 9:00 – 19:00"
-    - "Saturday: 9:00 – 19:00"
-    - "sunday: 9:00 – 19:00"
+formulaire:
+  title: "Write"
+  subtitle: "To the Pampa"
+
+adresse: 
+  title: "Our adress"  
+  line1: "BRASSERIE ARTISANALE BAR BOUTIQUE"
+  line2: "CANAL DU DEMI"
+  line3: "2 avenue Joseph Lazare"
+  line4: "34 500 Béziers, France"
+  link:
+    text: "See on the map"
+    url: "https://g.page/lagorgefraiche?share"
+
+telephone:
+  title: "Join us"
+  subtitle: "By phone to"
+  numero: "+33 04 67 37 06 97"  
+  email:
+    text: "Or by email at"
+    url: "contact@pampahardseltzer.com"
     
 draft: false
 ---

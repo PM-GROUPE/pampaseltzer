@@ -47,7 +47,7 @@
   translation: "Available sizes"
 
 - id: "asterisque"
-  translation: "* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice."
+  translation: "* Products from organic farming."
 
 
 - id: "cookieconsent_message"
@@ -60,40 +60,70 @@
   translation: "Decline tracking"
 
 - id: "contact_submitted"
-  translation: "Votre message a été envoyé."
+  translation: "Your message has been sent."
 
 - id: "contact_error"
-  translation: "Une erreur est survenue lors de l'envoi du formulaire."
+  translation: "An error occurred while submitting the form."
 
 - id: "contact_name"
-  translation: "Nom"
+  translation: "Name"
 
 - id: "contact_name_placeholder"
-  translation: "Votre nom"
+  translation: "Your name"
+
+- id: "contact_fistname"
+  translation: "First name"
+
+- id: "contact_firstname_placeholder"
+  translation: "Your first name"
+
+- id: "contact_lastname"
+  translation: "Last name"
+
+- id: "contact_lastname_placeholder"
+  translation: "Your last name"
+
+- id: "contact_phone"
+  translation: "Phone"
+
+- id: "contact_phone_placeholder"
+  translation: "Phone"
 
 - id: "contact_mail"
-  translation: "Adresse e-mail"
+  translation: "E-mail adress"
 
 - id: "contact_mail_placeholder"
-  translation: "Votre adresse e-mail"
+  translation: "Your E-mail adress"
 
 - id: "contact_subject"
-  translation: "Sujet"
+  translation: "Subjet"
 
 - id: "contact_subject_placeholder"
-  translation: "Le sujet du message"
+  translation: "Choose an object"
+
+- id: "contact_subject_option1"
+  translation: "Contact"
+
+- id: "contact_subject_option2"
+  translation: "Rental of dispensers"
+
+- id: "contact_subject_option3"
+  translation: "Devis personnalisé"
+
+- id: "contact_subject_option4"
+  translation: "Professional training"
 
 - id: "contact_message"
   translation: "Message"
 
 - id: "contact_message_placeholder"
-  translation: "Contenu du message"
+  translation: "Your message"
 
 - id: "contact_submit"
-  translation: "Envoyer"
+  translation: "Send"
 
 - id: "contact_honypot"
-  translation: "Ne faites pas attention à ça si vous êtes humain"
+  translation: "Don't mind that if you're human"
 
 - id: videoUnsupported
   translation: "Your browser doesn't support embedded videos, but don't worry, you can <a href=\"{{ .RelPermalink }}\">download it</a> and watch it with your favorite video player!"

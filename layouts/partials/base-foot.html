@@ -21,7 +21,6 @@
 <script src='{{ "js/consent.js" | absURL }}'></script> 
 <script src='{{ "js/script.js" | absURL }}'></script> 
 
-
 <script>
   (function(w) {
     // if the class is already set, we're good.
@@ -53,10 +52,10 @@
 </script>
 <script>
   const scroll = new SmoothScroll('a[href*="#"]');
-    $('a.nav-link').on('click', () => {
-      const navbar = $('.navbar-collapse');
-      if (navbar && navbar.hasClass('show')) {
-        $('.navbar-toggler').click();
-      }
-    })
+  $('a.nav-link').on('click', () => {
+    const navbar = $('.navbar-collapse');
+    if (navbar && navbar.hasClass('show')) {
+      $('.navbar-toggler').click();
+    }
+  });
 </script>

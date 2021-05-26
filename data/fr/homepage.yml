@@ -57,8 +57,8 @@ hero:
   imageMobile:
     x: "img/hero/hero-bottles-mobile.png"
   videobg:
-    x: "video/beach.mp4"
-    poster: "video/beach.jpg"
+    x: "https://res.cloudinary.com/marketluck/video/upload/v1622034231/pampaseltzer/PHS-169_gswhkx.mp4"
+    poster: "video/poster.jpg"
   imgbg:
     x: "img/general/bg.jpg"
 
@@ -90,7 +90,7 @@ parfums:
   label: "MANDARINE / FLEUR DE SUREAU"
   link: "/products/mandarine-fleur-de-sureau/"
   content: "<p class='lead'>    
-  Fabriqué avec des ingrédients de qualité, le PAMPA® Hard Seltzer est composé d'un mélange d'eau de Seltz, de notre base d'alcool sans gluten et d'un soupçon de saveur de fruits. Découvrez notre variété de saveurs aujourd'hui.
+  Fabriqué avec des ingrédients de qualité, la Pampa Hard Seltzer est composée d’eau pétillante alcoolisée et aromatisée. <br />100% Bio, sans gluten, sans sucre. Découvrez nos arômes.
     </p>"
   button:
     icon: "icon-smile-fill"
@@ -131,7 +131,7 @@ pub:
   subtitle: "Hard Seltzer"
   text: "Fabriqué avec des ingrédients de qualité, le Pampa® Hard Seltzer 70 est composé d'un mélange d'eau de Seltz, de notre base d'alcool sans gluten et d'un soupçon de saveur de fruits.
 Disponible en ananas et clémentine - deux toutes nouvelles saveurs alléchantes - il contient 70 calories, 3,7% d'alcool, 0 g de glucides et est naturellement sans gluten."
-  image: 'img/pub/btl.png'
+  image: 'img/hero/hero-bottles-mobile.png'
   button:
     btnText: "Acheter maintenant"
     URL: "#"
@@ -140,9 +140,10 @@ Disponible en ananas et clémentine - deux toutes nouvelles saveurs alléchantes
 story:
   enable: true
   title: "Notre histoire"
-  content: "PAMPA® Hard Seltzer s'inspire de la légende de la plage privée du même nom - lorsque trois crêtes parfaites se réunissent pour créer un moment de pur rafraîchissement. Nous avons décidé de créer quelque chose d'aussi purement rafraîchissant que celui-ci.
-Le résultat? PAMPA® Hard Seltzer. "
+  content: "La Pampa Plage là où tout a commencé … <br />Beaucoup de nos clients commandent des alcools forts avec des eaux gazeuses tels que whisky Perrier, vodka Perrier, rhum Perrier.
+C’est à partir de ce constat que nous avons décidé de lancer la Pampa Hard Seltzer. "
   videoURL: "video/phs.mp4"
+  poster: "video/phs.jpg"
 
 #photos
 photos:
@@ -166,132 +167,3 @@ photos:
     - img: "img/photos/15.jpg"
 
 
-############################# banner ############################
-banner:
-  enable : true
-  title : "Believe in Technology, Make the change"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
-  image : "images/watch.png"
-  button:
-   enable : true
-   label : "Browse All Products"
-   link : "products"
-
-############################# Feature ############################
-features:
-  enable : true
-  title : "Our Core Features"
-  image : "images/watch-2.png"
-
-  # feature at the left of the image
-  left_side:
-    # feature item loop
-  - title : "Smooth Touche"
-    icon : "tf-ion-ios-alarm-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-    
-    # feature item loop
-  - title : "Elegant Design"
-    icon : "tf-ion-ios-bell-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-    
-    # feature item loop
-  - title : "Easy Pricing"
-    icon : "tf-ion-ios-cart-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-
-
-  # feature at the right of the image
-  right_side:
-    # feature item loop
-  - title : "Smooth Touch"
-    icon : "tf-ion-ios-alarm-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-
-    # feature item loop
-  - title : "Elegant Design"
-    icon : "tf-ion-ios-bell-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-
-    # feature item loop
-  - title : "Easy Pricing"
-    icon : "tf-ion-ios-cart-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-
-
-############################# promo ############################
-promo:
-  enable : true
-  image : "images/watch.png"
-  title : "Designed by professional , the benefit for creative gigs"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
-            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
-            <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
-
-
-############################# About Product #######################
-about_product:
-  enable : true
-  title : "Why Choose Apple Watch"
-  items:
-    # about product item loop
-    - image : "images/showcase/showcase-4.png"
-      title : "Lorem ipsum dolor sit amet."
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
-      button:
-        enable : false
-        label : "Check Features"
-        link : "#"
-        
-    # about product item loop
-    - image : "images/showcase/showcase-3.png"
-      title : "Lorem ipsum dolor sit amet."
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
-      button:
-        enable : false
-        label : "Check Features"
-        link : "#"
-
-
-#################################### Products ########################
-products:
-  enable : true
-  title : "Checkout Our All Products"
-
-
-################################## Subscription ###################
-subscription:
-  enable : false
-  bg_image : "images/call-to-action.jpg"
-  title : "Get Product Updates"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
-  placeholder : "Your Email Address Here"
-
-
-############################## Testimonial ##########################
-testimonial:
-  enable : true
-  title : "Watch Review"
-  testimonial_item:
-    # testimonial item loop
-    - name : "Jonathon Andrew"
-      designation : "CEO, Themefisher"
-      image : "images/avater.png"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
-      
-    # testimonial item loop
-    - name : "Jonathon Andrew"
-      designation : "CEO, Themefisher"
-      image : "images/avater.png"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
-      
-    # testimonial item loop
-    - name : "Jonathon Andrew"
-      designation : "CEO, Themefisher"
-      image : "images/avater.png"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."

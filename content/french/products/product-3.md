@@ -3,9 +3,9 @@ title: "Framboise"
 slug : framboise
 image: "img/parfums/framboise.png"
 # description
-description: "Découvrez toute la joie de mordre dans une framboise fraîche, avec une finale au goût lisse et propre. Cette saveur d'agrumes déborde du goût préféré des amateurs et de la douceur naturelle du fruit." 
+description: "Laissez-vous tenter par le goût d’une framboise fraîche, lisse et propre. Cette saveur laisse un goût frais, sucrée et acidulée." 
 # ingredients
-ingredients_content: "Eau gazeuse purifiée, alcool, arômes naturels, sucre de canne, acide citrique, concentré de jus de mandarine naturel, citrate de sodium."
+ingredients_content: "Eau gazeuse purifiée, levure*, sucre*, arômes naturels* "
 
 
 draft: false

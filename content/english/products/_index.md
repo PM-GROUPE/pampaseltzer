@@ -1,5 +1,5 @@
 ---
 title: "All our flavors"
-description : "Discover epic refreshment like nothing you've tasted before"
+description : "Experience a refreshment like you've never tasted before"
 draft: false
 ---

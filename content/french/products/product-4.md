@@ -5,9 +5,9 @@ slug : fraise-citron
 image: "img/parfums/fraise-citron.png"
 
 # description
-description: "Découvrez toute la joie de mordre dans une fraise fraîche, avec une finale au goût lisse et propre. Cette saveur d'agrumes déborde du goût préféré des amateurs et de la douceur naturelle du fruit."
+description: "Laissez vous tenter par la saveur rafraichissante et juteuse de la fraise accompagnée d’une saveur d’agrumes piquante."
 # ingredients
-ingredients_content: "Eau gazeuse purifiée, alcool, arômes naturels, sucre de canne, acide citrique, concentré de jus de mandarine naturel, citrate de sodium."
+ingredients_content: "Eau gazeuse purifiée, levure*, sucre*, arômes naturels* "
 
 draft: false
 ---

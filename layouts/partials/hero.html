@@ -4,12 +4,15 @@
 {{ with $data.homepage.hero }}
 <section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down">
   <div class="overlay"></div>
+  <!-- <video class="hero-video" playsinline autoplay loop muted poster="{{ .videobg.poster | absURL }}">
+     <source src="{{ .videobg.x | absURL }}" type="video/mp4">      
+ </video> -->
   <div class="container">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-6">
         <div class="text-center">
           <img style="width: 100%;max-width: 200px;" src="{{ .logo | absURL }}" class="pb-3" />
-          
+        
           <!-- <a
             href="{{ .hero.button.URL | absURL }}"
             class="btn btn-light"
