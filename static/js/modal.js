@@ -18,12 +18,12 @@ function revealModal() {
     };
     
     $modalClose.on("click", function () {
+        var el = document.getElementById('modal');
+            el.remove(); // Removes the div with the 'div-02' id
         return (
             Cookies.set("modal", "true", { expires: 1 }),
             $body.removeClass("modal-open"),
             $body.attr("style", ""),
-            $modal.removeClass("d-block"),
-            $modal.addClass("d-none"),
             $("#modal").css({ visibility: "visible", opacity: "1" }), !1,
             "function" == typeof checkIfInViewInit && checkIfInViewInit(),
             !1
