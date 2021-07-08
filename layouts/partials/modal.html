@@ -1,0 +1,17 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{- if $data.homepage.modal.enable }}
+{{- with $data.homepage.modal }}
+<div id="modal" class="modal video-modal" style="display: none;">
+    <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close" id="modal-close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+      <div class="video-frame">
+        <video title="Pampa Hard Seltzer" preload="auto" playsinline autoplay muted loop controls id="video">
+            <source src="{{ .video.url }}" type="video/mp4">
+        </video>
+        
+      </div>
+    </div>
+{{- end }}
+{{- end }}

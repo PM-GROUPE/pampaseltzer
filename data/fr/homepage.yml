@@ -38,6 +38,14 @@ age:
   warning: "Merci de revenir quand vous aurez 18 ans."
   copy : "A consommer avec modération. © Pampa Drinks. Tous droits réservés."
 
+#modal
+modal:
+  enable: true
+  title: "Modal"
+  video:
+    url: "video/pampa-roller.mp4"
+    poster: "video/poster.jpg"
+
 #cookies consent
 cookies:
   enable: false

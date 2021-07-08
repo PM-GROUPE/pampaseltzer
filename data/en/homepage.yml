@@ -38,6 +38,10 @@ age:
   warning: "Please come back and visit us when you're 21."
   copy : "Please Drink Responsibly. Hard Seltzer with Flavors. All Registered Trademarks, used under license by Pampa Hard Seltzer"
 
+#modal
+modal:
+  enable: true
+  title: "Modal"
 
 # hero
 hero:

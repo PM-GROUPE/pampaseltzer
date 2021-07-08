@@ -5479,6 +5479,29 @@ a.close.disabled {
     overflow-x: hidden;
     overflow-y: auto;
 }
+.video-modal {
+    background: black;
+}
+.video-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 100vh;
+}
+.video-frame video {
+    width: 100%;
+}
+.modal-close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    text-shadow: none;
+    color: white;
+}
+.modal-close:hover {
+    color: white;
+}
 .modal {
     position: fixed;
     top: 0;
