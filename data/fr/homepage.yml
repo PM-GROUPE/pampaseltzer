@@ -40,7 +40,7 @@ age:
 
 #modal
 modal:
-  enable: true
+  enable: false
   title: "Modal"
   video:
     url: "video/pampa-roller.mp4"
