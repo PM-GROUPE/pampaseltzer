@@ -5498,6 +5498,7 @@ a.close.disabled {
     top: 20px;
     text-shadow: none;
     color: white;
+    z-index: 1051;
 }
 .modal-close:hover {
     color: white;
